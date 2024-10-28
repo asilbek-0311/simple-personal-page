@@ -71,7 +71,7 @@ export default function Home() {
     return () => clearInterval(glowInterval)
   }, [])
 
-  const handleMouseDown = (index: number) => (e: React.MouseEvent) => {
+  const handleMouseDown = (index: number) => () => {
     setDraggingItem(index)
   }
 
@@ -139,9 +139,9 @@ export default function Home() {
       <section className={styles.about}>
         <h2>About Me</h2>
         <p>
-          Hello! I'm a passionate web developer with a keen eye for design. 
+          Hello! I`&apos;`m a passionate web developer with a keen eye for design. 
           I love creating beautiful, functional websites that provide great user experiences.
-          When I'm not coding, you can find me exploring new technologies, reading, or enjoying nature.
+          When I`&apos;`m not coding, you can find me exploring new technologies, reading, or enjoying nature.
         </p>
       </section>
 
