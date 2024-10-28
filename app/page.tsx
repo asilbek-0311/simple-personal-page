@@ -61,9 +61,9 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.hero}>
         <div className={styles.profileImage}>
-          <Image src="/profile-picture.jpg" alt="Your Name" width={200} height={200} />
+          <Image src="/profile.jpg" alt="Your Name" width={200} height={200} />
         </div>
-        <h1 className={styles.title}>Your Name</h1>
+        <h1 className={styles.title}>Asilbek Abdullaev</h1>
         <p className={styles.subtitle}>Web Developer & Designer</p>
       </section>
 
