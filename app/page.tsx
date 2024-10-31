@@ -11,7 +11,7 @@ const socialLinks = [
   { name: 'Email', url: 'mailto:azizjonogliasilbek@gmail.com', emoji: '📧' },
 ]
 
-const skills = ['JavaScript', 'React', 'Node.js', 'TypeScript', 'CSS', 'HTML']
+const skills = ['JavaScript', 'React', 'Node.js', 'TypeScript', 'CSS', 'HTML', 'Solidity', 'Git', 'Figma', 'Next.js', 'C', 'Python']
 
 const emojis = ['🚀', '💡', '🌈', '🎨', '🔧', '🌟', '🎉', '🔥']
 
@@ -122,7 +122,7 @@ export default function Home() {
       </button>
       <section className={styles.hero}>
         <div className={styles.profileImage}>
-          <Image src="/profile.jpg" alt="Asilbek" width={200} height={200} />
+          <Image src="/sticker.webp" alt="Asilbek" width={200} height={200} />
         </div>
         <h1 className={styles.title}>Asilbek Abdullaev</h1>
         <p className={styles.subtitle}>CS student</p>
@@ -139,9 +139,9 @@ export default function Home() {
       <section className={styles.about}>
         <h2>About Me</h2>
         <p>
-          Hello! I`&apos;`m a passionate web developer with a keen eye for design. 
+          Hello! I&apos;m a passionate web developer with a keen eye for design. 
           I love creating beautiful, functional websites that provide great user experiences.
-          When I`&apos;`m not coding, you can find me exploring new technologies, reading, or enjoying nature.
+          When I&apos;m not coding, you can find me exploring new technologies, reading, or enjoying nature.
         </p>
       </section>
 
